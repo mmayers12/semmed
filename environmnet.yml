@@ -72,6 +72,7 @@ dependencies:
 - simplegeneric=0.8.1=py35_0
 - sip=4.18=py35_0
 - six=1.10.0=py35_0
+- sqlalchemy=1.1.11=py35_0
 - sqlite=3.9.2=0
 - statsmodels=0.8.0=np113py35_0
 - terminado=0.5=py35_1
