@@ -10,7 +10,10 @@ Sem Med DB predications were downloaded from the [NIH website](https://skr3.nlm.
 
 The mysql data dump was then extracted and converted into a .csv file:
 
-    $ pv semmedVER30_R_WHOLEDB_to12312017.sql.gz | zcat | python mysqldump_to_csv.py
+    $ cp col_names.txt semmedVER30_R.csv
+    $ pv semmedVER30_R_WHOLEDB_to12312017.sql.gz | zcat | python mysqldump_to_csv.py >> semmed_ver30_R.csv
+
+Column names were extracted from the mysql data dump, and can be prepended onto the data using the above statements.
 
 
 ## Setting up the python environment.
