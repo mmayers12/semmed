@@ -22,4 +22,19 @@ Use anaconda with enviornment.yml to run this code.  After installing anaconda
 use `conda env create envionment.yml` to install the enviornment. Then use
 `source activate ml` to start the enviornmnet.
 
+## Getting Data from Drugcentral Dump
+
+Install postgresql and load the dump into postgresql.
+This command will allow for the extraction of tables from the dump:
+
+    psql
+    \connect drugcentral_04252017
+    \COPY omop_relationship TO '/home/mmayers/projects/semmed/data/drugcentral_rel.csv' DELIMITER ',' CSV HEADER;
+    \COPY identifier TO '/home/mmayers/projects/semmed/data/drugcentral_ids.csv' DELIMITER ',' CSV HEADER;
+    \COPY approval TO '/home/mmayers/projects/semmed/data/drugcentral_approvals.csv' DELIMITER ',' CSV HEADER;
+
+
+## Downloading the pubmed basline files
+
+    $ ./download_baseline.sh
 
