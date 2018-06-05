@@ -11,7 +11,7 @@ Sem Med DB predications were downloaded from the [NIH website](https://skr3.nlm.
 The mysql data dump was then extracted and converted into a .csv file:
 
     $ cp col_names.txt semmedVER30_R.csv
-    $ pv semmedVER30_R_WHOLEDB_to12312017.sql.gz | zcat | python mysqldump_to_csv.py >> semmed_ver30_R.csv
+    $ pv semmedVER30_R_PREDICATION_to12312016.sql.gz | zcat | python mysqldump_to_csv.py >> semmedVER30_R.csv
 
 Column names were extracted from the mysql data dump, and can be prepended onto the data using the above statements.
 
@@ -22,7 +22,22 @@ Use anaconda with enviornment.yml to run this code.  After installing anaconda
 use `conda env create envionment.yml` to install the enviornment. Then use
 `source activate ml` to start the enviornmnet.
 
-## Getting Data from Drugcentral Dump
+## Drugcentral Dump
+
+### Downloading the database
+
+The Drugcentral database is avaliable as a postgres data dump from the
+[Drugcentral website](http://drugcentral.org/download)
+
+### Importing the Drugcentral database dump
+
+After installing postgres, run the following command to load the database dump for future extraction
+
+    # This assumes database version 04252017 was downloaded
+    createdb drugcentral_04252017
+    gunzip < drugcentral.dump.04252017.sql.gz | psql drugcentral_04252017
+
+### Getting Data from Drugcentral Dump
 
 Install postgresql and load the dump into postgresql.
 This command will allow for the extraction of tables from the dump:
