@@ -1,6 +1,42 @@
 # semmed
 
-Code to create a hetnet from the data in Sem Med DB
+Code to create a hetnet from the data in SemmedDB
+
+To use much of this repo, a UMLS liscence/account is required. [You can apply for one here.](https://uts.nlm.nih.gov//license.html)
+
+This repo is divided into several steps.  First, the python enviornment should be set up and activated
+
+## Setting up the python environment.
+
+Use anaconda with enviornment.yml to run this code.  After installing anaconda
+use `conda env create envionment.yml` to install the enviornment. Then use
+`source activate ml` to start the enviornmnet.
+
+## prepare
+
+The prepare folder contains the scripts and notebooks needed to download semmedDB and other mapping
+files used for this repo, as well as some pre-processing steps.
+
+## build
+
+The build folder contains the notebooks that build the hetnet version of semmedDB
+
+## ml
+
+The ml folder contains scripts to run the machine learning pipeline on the generated hetnet, as well as
+notebooks for the analysis of these results.
+
+## tools
+
+The tools folder cotains some helpful scripts, useful for this project.
+
+
+
+
+
+
+
+
 
 ## Downloading and extracting semmed db data
 
@@ -16,11 +52,6 @@ The mysql data dump was then extracted and converted into a .csv file:
 Column names were extracted from the mysql data dump, and can be prepended onto the data using the above statements.
 
 
-## Setting up the python environment.
-
-Use anaconda with enviornment.yml to run this code.  After installing anaconda
-use `conda env create envionment.yml` to install the enviornment. Then use
-`source activate ml` to start the enviornmnet.
 
 ## Drugcentral Dump
 
