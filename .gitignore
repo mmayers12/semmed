@@ -1,5 +1,7 @@
 data/*
 !data/col_names.txt
+!data/README.md
+!data/edge_condense_map.csv
 .DS_Store
 ._.DS_Store
 201*AA-full

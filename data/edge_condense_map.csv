@@ -1,0 +1,292 @@
+original_edge,condensed_to,relationship,reverse,node_semtypes
+AFFECTS_ABafAB,AFFECTS_ABafAB,neutral,False,Activities & Behaviors --- Activities & Behaviors
+PREDISPOSES_ABpsAB,AFFECTS_ABafAB,neutral,False,Activities & Behaviors --- Activities & Behaviors
+STIMULATES_ABstAB,AFFECTS_ABafAB,neutral,False,Activities & Behaviors --- Activities & Behaviors
+TREATS_ABtAB,AFFECTS_ABafAB,neutral,False,Activities & Behaviors --- Activities & Behaviors
+CAUSES_ABcAB,AFFECTS_ABafAB,neutral,False,Activities & Behaviors --- Activities & Behaviors
+PREVENTS_ABpvAB,AFFECTS_ABafAB,neutral,False,Activities & Behaviors --- Activities & Behaviors
+AFFECTS_CDafAB,AFFECTS_CDafAB,neutral,False,Activities & Behaviors --- Chemicals & Drugs
+AUGMENTS_CDagAB,AFFECTS_CDafAB,neutral,False,Activities & Behaviors --- Chemicals & Drugs
+CAUSES_CDcAB,AFFECTS_CDafAB,neutral,False,Activities & Behaviors --- Chemicals & Drugs
+DISRUPTS_CDdsAB,AFFECTS_CDafAB,neutral,False,Activities & Behaviors --- Chemicals & Drugs
+TREATS_CDtAB,AFFECTS_CDafAB,neutral,False,Activities & Behaviors --- Chemicals & Drugs
+ASSOCIATED_WITH_CDawAB,AFFECTS_CDafAB,neutral,False,Activities & Behaviors --- Chemicals & Drugs
+PREDISPOSES_CDpsAB,AFFECTS_CDafAB,neutral,False,Activities & Behaviors --- Chemicals & Drugs
+PREVENTS_CDpvAB,AFFECTS_CDafAB,neutral,False,Activities & Behaviors --- Chemicals & Drugs
+INHIBITS_CDinAB,AFFECTS_CDafAB,neutral,False,Activities & Behaviors --- Chemicals & Drugs
+COMPLICATES_CDcpAB,AFFECTS_CDafAB,neutral,False,Activities & Behaviors --- Chemicals & Drugs
+TREATS_ABtDO,TREATS_ABtDO,negative,False,Activities & Behaviors --- Disorders
+PREVENTS_ABpvDO,TREATS_ABtDO,negative,False,Activities & Behaviors --- Disorders
+DIAGNOSES_ABdgDO,TREATS_ABtDO,negative,False,Activities & Behaviors --- Disorders
+PREDISPOSES_ABpsDO,ASSOCIATED_WITH_ABawDO,neutral,False,Activities & Behaviors --- Disorders
+CAUSES_ABcDO,ASSOCIATED_WITH_ABawDO,neutral,False,Activities & Behaviors --- Disorders
+COEXISTS_WITH_ABcwDO,ASSOCIATED_WITH_ABawDO,neutral,False,Activities & Behaviors --- Disorders
+ASSOCIATED_WITH_ABawDO,ASSOCIATED_WITH_ABawDO,neutral,False,Activities & Behaviors --- Disorders
+AFFECTS_DOafAB,AFFECTS_DOafAB,reverse negative,False,Activities & Behaviors --- Disorders
+DISRUPTS_DOdsAB,AFFECTS_DOafAB,reverse negative,False,Activities & Behaviors --- Disorders
+PROCESS_OF_ABpro>LB,OCCURS_IN_ABoiLB,neutral,False,Activities & Behaviors --- Living Beings
+OCCURS_IN_ABoiLB,OCCURS_IN_ABoiLB,neutral,False,Activities & Behaviors --- Living Beings
+USES_LBuAB,OCCURS_IN_ABoiLB,neutral,True,Activities & Behaviors --- Living Beings
+PART_OF_Apo>A,LOCATION_OF_AloA,neutral,False,Anatomy --- Anatomy
+LOCATION_OF_AloA,LOCATION_OF_AloA,neutral,False,Anatomy --- Anatomy
+LOCATION_OF_AloCD,LOCATION_OF_AloCD,neutral,False,Anatomy --- Chemicals & Drugs
+PRODUCES_Apd>CD,LOCATION_OF_AloCD,neutral,False,Anatomy --- Chemicals & Drugs
+COEXISTS_WITH_AcwCD,LOCATION_OF_AloCD,neutral,False,Anatomy --- Chemicals & Drugs
+PRODUCES_CDpd>A,LOCATION_OF_AloCD,neutral,True,Anatomy --- Chemicals & Drugs
+PART_OF_CDpo>A,LOCATION_OF_AloCD,neutral,True,Anatomy --- Chemicals & Drugs
+AFFECTS_CDafA,AFFECTS_CDafA,neutral,False,Anatomy --- Chemicals & Drugs
+AUGMENTS_CDagA,AFFECTS_CDafA,neutral,False,Anatomy --- Chemicals & Drugs
+DISRUPTS_CDdsA,AFFECTS_CDafA,neutral,False,Anatomy --- Chemicals & Drugs
+ADMINISTERED_TO_CDatA,AFFECTS_CDafA,neutral,False,Anatomy --- Chemicals & Drugs
+TREATS_CDtA,AFFECTS_CDafA,neutral,False,Anatomy --- Chemicals & Drugs
+LOCATION_OF_AloCI,LOCATION_OF_AloCI,neutral,False,Anatomy --- Concepts & Ideas
+ASSOCIATED_WITH_AawCI,LOCATION_OF_AloCI,neutral,False,Anatomy --- Concepts & Ideas
+PRODUCES_Apd>CI,LOCATION_OF_AloCI,neutral,False,Anatomy --- Concepts & Ideas
+PART_OF_Apo>CI,LOCATION_OF_AloCI,neutral,False,Anatomy --- Concepts & Ideas
+AFFECTS_CIafA,LOCATION_OF_AloCI,neutral,True,Anatomy --- Concepts & Ideas
+PART_OF_CIpo>A,LOCATION_OF_AloCI,neutral,True,Anatomy --- Concepts & Ideas
+PROCESS_OF_CIpro>A,LOCATION_OF_AloCI,neutral,True,Anatomy --- Concepts & Ideas
+LOCATION_OF_AloDO,LOCATION_OF_AloDO,neutral,False,Anatomy --- Disorders
+PART_OF_Apo>DO,LOCATION_OF_AloDO,neutral,False,Anatomy --- Disorders
+ASSOCIATED_WITH_AawDO,LOCATION_OF_AloDO,neutral,False,Anatomy --- Disorders
+PRODUCES_Apd>DO,LOCATION_OF_AloDO,neutral,False,Anatomy --- Disorders
+PART_OF_DOpo>A,LOCATION_OF_AloDO,neutral,True,Anatomy --- Disorders
+AFFECTS_DOafA,LOCATION_OF_AloDO,neutral,True,Anatomy --- Disorders
+PROCESS_OF_DOpro>A,LOCATION_OF_AloDO,neutral,True,Anatomy --- Disorders
+LOCATION_OF_AloG,LOCATION_OF_AloG,neutral,False,Anatomy --- Genes & Molecular Sequences
+PRODUCES_Apd>G,LOCATION_OF_AloG,neutral,False,Anatomy --- Genes & Molecular Sequences
+ASSOCIATED_WITH_GawA,LOCATION_OF_AloG,neutral,True,Anatomy --- Genes & Molecular Sequences
+COEXISTS_WITH_GcwA,LOCATION_OF_AloG,neutral,True,Anatomy --- Genes & Molecular Sequences
+PART_OF_Gpo>A,LOCATION_OF_AloG,neutral,True,Anatomy --- Genes & Molecular Sequences
+AFFECTS_GafA,AFFECTS_GafA,neutral,False,Anatomy --- Genes & Molecular Sequences
+AUGMENTS_GagA,AFFECTS_GafA,neutral,False,Anatomy --- Genes & Molecular Sequences
+DISRUPTS_GdsA,AFFECTS_GafA,neutral,False,Anatomy --- Genes & Molecular Sequences
+INHIBITS_GinA,AFFECTS_GafA,neutral,False,Anatomy --- Genes & Molecular Sequences
+STIMULATES_GstA,AFFECTS_GafA,neutral,False,Anatomy --- Genes & Molecular Sequences
+INTERACTS_WITH_AiwG,AFFECTS_GafA,neutral,True,Anatomy --- Genes & Molecular Sequences
+NEG_LOCATION_OF_AnloG,NEG_LOCATION_OF_AnloG,negation,False,Anatomy --- Genes & Molecular Sequences
+NEG_PRODUCES_AnpdG,NEG_LOCATION_OF_AnloG,negation,False,Anatomy --- Genes & Molecular Sequences
+NEG_COEXISTS_WITH_AncwG,NEG_LOCATION_OF_AnloG,negation,False,Anatomy --- Genes & Molecular Sequences
+NEG_ASSOCIATED_WITH_GnawA,NEG_LOCATION_OF_AnloG,negation,True,Anatomy --- Genes & Molecular Sequences
+NEG_PART_OF_GnpoA,NEG_LOCATION_OF_AnloG,negation,True,Anatomy --- Genes & Molecular Sequences
+OCCURS_IN_AoiLB,OCCURS_IN_AoiLB,neutral,False,Anatomy --- Living Beings
+PART_OF_Apo>LB,OCCURS_IN_AoiLB,neutral,False,Anatomy --- Living Beings
+AFFECTS_AafPS,LOCATION_OF_AloPS,neutral,False,Anatomy --- Physiology
+ASSOCIATED_WITH_AawPS,LOCATION_OF_AloPS,neutral,False,Anatomy --- Physiology
+LOCATION_OF_AloPS,LOCATION_OF_AloPS,neutral,False,Anatomy --- Physiology
+PROCESS_OF_PSpro>A,LOCATION_OF_AloPS,neutral,True,Anatomy --- Physiology
+PART_OF_PSpo>A,LOCATION_OF_AloPS,neutral,True,Anatomy --- Physiology
+INTERACTS_WITH_CDiwCD,ASSOCIATED_WITH_CDawCD,neutral,False,Chemicals & Drugs --- Chemicals & Drugs
+COEXISTS_WITH_CDcwCD,ASSOCIATED_WITH_CDawCD,neutral,False,Chemicals & Drugs --- Chemicals & Drugs
+CONVERTS_TO_CDct>CD,ASSOCIATED_WITH_CDawCD,neutral,False,Chemicals & Drugs --- Chemicals & Drugs
+PRODUCES_CDpd>CD,ASSOCIATED_WITH_CDawCD,neutral,False,Chemicals & Drugs --- Chemicals & Drugs
+USES_CDuCD,ASSOCIATED_WITH_CDawCD,neutral,False,Chemicals & Drugs --- Chemicals & Drugs
+ISA_CDi>CD,ISA_CDi>CD,synonymous,False,Chemicals & Drugs --- Chemicals & Drugs
+PART_OF_CDpo>CD,ISA_CDi>CD,synonymous,False,Chemicals & Drugs --- Chemicals & Drugs
+AFFECTS_CDafCI,AFFECTS_CDafCI,neutral,False,Chemicals & Drugs --- Concepts & Ideas
+AUGMENTS_CDagCI,AFFECTS_CDafCI,neutral,False,Chemicals & Drugs --- Concepts & Ideas
+CAUSES_CDcCI,AFFECTS_CDafCI,neutral,False,Chemicals & Drugs --- Concepts & Ideas
+TREATS_CDtCI,AFFECTS_CDafCI,neutral,False,Chemicals & Drugs --- Concepts & Ideas
+DISRUPTS_CDdsCI,AFFECTS_CDafCI,neutral,False,Chemicals & Drugs --- Concepts & Ideas
+INHIBITS_CDinCI,AFFECTS_CDafCI,neutral,False,Chemicals & Drugs --- Concepts & Ideas
+ASSOCIATED_WITH_CDawCI,AFFECTS_CDafCI,neutral,False,Chemicals & Drugs --- Concepts & Ideas
+PREVENTS_CDpvCI,AFFECTS_CDafCI,neutral,False,Chemicals & Drugs --- Concepts & Ideas
+PREDISPOSES_CDpsCI,AFFECTS_CDafCI,neutral,False,Chemicals & Drugs --- Concepts & Ideas
+TREATS_CDtDO,TREATS_CDtDO,negative,False,Chemicals & Drugs --- Disorders
+PREVENTS_CDpvDO,TREATS_CDtDO,negative,False,Chemicals & Drugs --- Disorders
+DISRUPTS_CDdsDO,TREATS_CDtDO,negative,False,Chemicals & Drugs --- Disorders
+INHIBITS_CDinDO,TREATS_CDtDO,negative,False,Chemicals & Drugs --- Disorders
+ASSOCIATED_WITH_CDawDO,ASSOCIATED_WITH_CDawDO,neutral,False,Chemicals & Drugs --- Disorders
+AFFECTS_CDafDO,ASSOCIATED_WITH_CDawDO,neutral,False,Chemicals & Drugs --- Disorders
+PART_OF_CDpo>DO,ASSOCIATED_WITH_CDawDO,neutral,False,Chemicals & Drugs --- Disorders
+PRODUCES_DOpd>CD,ASSOCIATED_WITH_CDawDO,neutral,True,Chemicals & Drugs --- Disorders
+CAUSES_CDcDO,AUGMENTS_CDagDO,positive,False,Chemicals & Drugs --- Disorders
+AUGMENTS_CDagDO,AUGMENTS_CDagDO,positive,False,Chemicals & Drugs --- Disorders
+PREDISPOSES_CDpsDO,AUGMENTS_CDagDO,positive,False,Chemicals & Drugs --- Disorders
+COMPLICATES_CDcpDO,AUGMENTS_CDagDO,positive,False,Chemicals & Drugs --- Disorders
+INTERACTS_WITH_GiwCD,INTERACTS_WITH_CDiwG,neutral,True,Chemicals & Drugs --- Genes & Molecular Sequences
+PART_OF_Gpo>CD,INTERACTS_WITH_CDiwG,neutral,True,Chemicals & Drugs --- Genes & Molecular Sequences
+ISA_Gi>CD,INTERACTS_WITH_CDiwG,neutral,True,Chemicals & Drugs --- Genes & Molecular Sequences
+CONVERTS_TO_Gct>CD,INTERACTS_WITH_CDiwG,neutral,True,Chemicals & Drugs --- Genes & Molecular Sequences
+COEXISTS_WITH_CDcwG,INTERACTS_WITH_CDiwG,neutral,False,Chemicals & Drugs --- Genes & Molecular Sequences
+PART_OF_CDpo>G,INTERACTS_WITH_CDiwG,neutral,False,Chemicals & Drugs --- Genes & Molecular Sequences
+USES_CDuGISA_CDi>G,INTERACTS_WITH_CDiwG,neutral,False,Chemicals & Drugs --- Genes & Molecular Sequences
+CONVERTS_TO_CDct>G,INTERACTS_WITH_CDiwG,neutral,False,Chemicals & Drugs --- Genes & Molecular Sequences
+STIMULATES_GstCD,STIMULATES_CDstG,positive,True,Chemicals & Drugs --- Genes & Molecular Sequences
+PRODUCES_Gpd>CD,STIMULATES_CDstG,positive,True,Chemicals & Drugs --- Genes & Molecular Sequences
+PRODUCES_CDpd>G,STIMULATES_CDstG,positive,False,Chemicals & Drugs --- Genes & Molecular Sequences
+LOCATION_OF_LBloCD,PRODUCES_LBpdCD,neutral,False,Chemicals & Drugs --- Living Beings
+PRODUCES_LBpd>CD,PRODUCES_LBpdCD,neutral,False,Chemicals & Drugs --- Living Beings
+PART_OF_CDpo>LB,PRODUCES_LBpdCD,neutral,True,Chemicals & Drugs --- Living Beings
+AFFECTS_CDafPH,AFFECTS_CDafPH,neutral,False,Chemicals & Drugs --- Phenomena
+AUGMENTS_CDagPH,AFFECTS_CDafPH,neutral,False,Chemicals & Drugs --- Phenomena
+DISRUPTS_CDdsPH,AFFECTS_CDafPH,neutral,False,Chemicals & Drugs --- Phenomena
+CAUSES_CDcPH,AFFECTS_CDafPH,neutral,False,Chemicals & Drugs --- Phenomena
+AUGMENTS_CDagPS,AUGMENTS_CDagPS,positive,False,Chemicals & Drugs --- Physiology
+CAUSES_CDcPS,AUGMENTS_CDagPS,positive,False,Chemicals & Drugs --- Physiology
+STIMULATES_CDstPS,AUGMENTS_CDagPS,positive,False,Chemicals & Drugs --- Physiology
+DISRUPTS_CDdsPS,DISRUPTS_CDdsPS,negative,False,Chemicals & Drugs --- Physiology
+INHIBITS_CDinPS,DISRUPTS_CDdsPS,negative,False,Chemicals & Drugs --- Physiology
+TREATS_CDtPS,DISRUPTS_CDdsPS,negative,False,Chemicals & Drugs --- Physiology
+ASSOCIATED_WITH_PSawCD,ASSOCIATED_WITH_PSawCD,neutral,False,Chemicals & Drugs --- Physiology
+PRODUCES_PSpd>CD,ASSOCIATED_WITH_PSawCD,neutral,False,Chemicals & Drugs --- Physiology
+ISA_CDi>PR,USES_PRuCD,neutral,True,Chemicals & Drugs --- Procedures
+METHOD_OF_CDmoPR,USES_PRuCD,neutral,True,Chemicals & Drugs --- Procedures
+USES_DVuDV,USES_DVuDV,neutral,False,Devices --- Devices
+ISA_DVi>DV,USES_DVuDV,neutral,False,Devices --- Devices
+TREATS_DVtDO,TREATS_DVtDO,neutral,False,Devices --- Disorders
+PREVENTS_DVpvDO,TREATS_DVtDO,neutral,False,Devices --- Disorders
+USES_PRuDV,USES_PRuDV,neutral,False,Devices --- Procedures
+METHOD_OF_PRmoDV,USES_PRuDV,neutral,False,Devices --- Procedures
+COEXISTS_WITH_DOcwDO,ASSOCIATED_WITH_DOawDO,neutral,False,Disorders --- Disorders
+ASSOCIATED_WITH_DOawDO,ASSOCIATED_WITH_DOawDO,neutral,False,Disorders --- Disorders
+AFFECTS_DOafDO,ASSOCIATED_WITH_DOawDO,neutral,False,Disorders --- Disorders
+OCCURS_IN_DOoiDO,ASSOCIATED_WITH_DOawDO,neutral,False,Disorders --- Disorders
+LOCATION_OF_DOloDO,ASSOCIATED_WITH_DOawDO,neutral,False,Disorders --- Disorders
+CAUSES_DOcDO,AUGMENTS_DOag>DO,positive,False,Disorders --- Disorders
+PREDISPOSES_DOpsDO,AUGMENTS_DOag>DO,positive,False,Disorders --- Disorders
+COMPLICATES_DOcpDO,AUGMENTS_DOag>DO,positive,False,Disorders --- Disorders
+PRECEDES_DOpc>DO,AUGMENTS_DOag>DO,positive,False,Disorders --- Disorders
+AUGMENTS_DOagDO,AUGMENTS_DOag>DO,positive,False,Disorders --- Disorders
+ISA_DOi>DO,ASSOCIATED_WITH_DOawDO,neutral,False,Disorders --- Disorders
+MANIFESTATION_OF_DOmfo>DO,ASSOCIATED_WITH_DOawDO,neutral,False,Disorders --- Disorders
+TREATS_GtDO,INHIBITS_GinDO,negative,False,Disorders --- Genes & Molecular Sequences
+PREVENTS_GpvDO,INHIBITS_GinDO,negative,False,Disorders --- Genes & Molecular Sequences
+DISRUPTS_GdsDO,INHIBITS_GinDO,negative,False,Disorders --- Genes & Molecular Sequences
+INHIBITS_GinDO,INHIBITS_GinDO,negative,False,Disorders --- Genes & Molecular Sequences
+CAUSES_GcDO,AUGMENTS_GagDO,positive,False,Disorders --- Genes & Molecular Sequences
+PREDISPOSES_GpsDO,AUGMENTS_GagDO,positive,False,Disorders --- Genes & Molecular Sequences
+AUGMENTS_GagDO,AUGMENTS_GagDO,positive,False,Disorders --- Genes & Molecular Sequences
+COMPLICATES_GcpDO,AUGMENTS_GagDO,positive,False,Disorders --- Genes & Molecular Sequences
+ASSOCIATED_WITH_GawDO,ASSOCIATED_WITH_GawDO,neutral,False,Disorders --- Genes & Molecular Sequences
+AFFECTS_GafDO,ASSOCIATED_WITH_GawDO,neutral,False,Disorders --- Genes & Molecular Sequences
+PART_OF_Gpo>DO,ASSOCIATED_WITH_GawDO,neutral,False,Disorders --- Genes & Molecular Sequences
+PRODUCES_DOpd>G,ASSOCIATED_WITH_GawDO,neutral,True,Disorders --- Genes & Molecular Sequences
+CAUSES_LBcDO,CAUSES_LBcDO,positive,False,Disorders --- Living Beings
+ASSOCIATED_WITH_LBawDO,CAUSES_LBcDO,positive,False,Disorders --- Living Beings
+AFFECTS_DOafLB,AFFECTS_DOafLB,neutral,False,Disorders --- Living Beings
+OCCURS_IN_DOoiLB,AFFECTS_DOafLB,neutral,False,Disorders --- Living Beings
+PART_OF_DOpo>LB,AFFECTS_DOafLB,neutral,False,Disorders --- Living Beings
+PROCESS_OF_DOpro>LB,AFFECTS_DOafLB,neutral,False,Disorders --- Living Beings
+LOCATION_OF_LBloDO,AFFECTS_DOafLB,neutral,True,Disorders --- Living Beings
+COEXISTS_WITH_LBcwDO,AFFECTS_DOafLB,neutral,True,Disorders --- Living Beings
+AFFECTS_PHafDO,AFFECTS_PHafDO,neutral,False,Disorders --- Phenomena
+CAUSES_PHcDO,AFFECTS_PHafDO,neutral,False,Disorders --- Phenomena
+PROCESS_OF_PHpro>DO,AFFECTS_PHafDO,neutral,False,Disorders --- Phenomena
+COEXISTS_WITH_PHcwDO,AFFECTS_PHafDO,neutral,False,Disorders --- Phenomena
+ASSOCIATED_WITH_PHawDO,AFFECTS_PHafDO,neutral,False,Disorders --- Phenomena
+PREDISPOSES_PHpsDO,AFFECTS_PHafDO,neutral,False,Disorders --- Phenomena
+PROCESS_OF_DOpro>PH,AFFECTS_PHafDO,neutral,True,Disorders --- Phenomena
+AFFECTS_PSafDO,AFFECTS_PSafDO,neutral,False,Disorders --- Physiology
+ASSOCIATED_WITH_PSawDO,AFFECTS_PSafDO,neutral,False,Disorders --- Physiology
+COEXISTS_WITH_PScwDO,AFFECTS_PSafDO,neutral,False,Disorders --- Physiology
+PREDISPOSES_PSpsDO,AFFECTS_PSafDO,neutral,False,Disorders --- Physiology
+TREATS_PStDO,AFFECTS_PSafDO,neutral,False,Disorders --- Physiology
+PROCESS_OF_DOpro>PS,CAUSES_DOcPS,positive,False,Disorders --- Physiology
+CAUSES_DOcPS,CAUSES_DOcPS,positive,False,Disorders --- Physiology
+MANIFESTATION_OF_DOmfo>PS,CAUSES_DOcPS,positive,False,Disorders --- Physiology
+PRECEDES_DOpc>PS,CAUSES_DOcPS,positive,False,Disorders --- Physiology
+TREATS_PRtDO,TREATS_PRtDO,negative,False,Disorders --- Procedures
+PREVENTS_PRpvDO,TREATS_PRtDO,negative,False,Disorders --- Procedures
+CAUSES_PRcDO,PREDISPOSES_PRpsDO,positive,False,Disorders --- Procedures
+PREDISPOSES_PRpsDO,PREDISPOSES_PRpsDO,positive,False,Disorders --- Procedures
+PRECEDES_PRpc>DO,PREDISPOSES_PRpsDO,positive,False,Disorders --- Procedures
+COMPLICATES_PRcpDO,PREDISPOSES_PRpsDO,positive,False,Genes & Molecular Sequences --- Genes & Molecular Sequences
+INTERACTS_WITH_GiwG,INTERACTS_WITH_GiwG,neutral,False,Genes & Molecular Sequences --- Genes & Molecular Sequences
+COEXISTS_WITH_GcwG,INTERACTS_WITH_GiwG,neutral,False,Genes & Molecular Sequences --- Genes & Molecular Sequences
+STIMULATES_GstG,REGULATES_Greg>G,directional,False,Genes & Molecular Sequences --- Genes & Molecular Sequences
+PRODUCES_Gpd>G,REGULATES_Greg>G,directional,False,Genes & Molecular Sequences --- Genes & Molecular Sequences
+CONVERTS_TO_Gct>G,ISA_Gi>G,synonymous,False,Genes & Molecular Sequences --- Genes & Molecular Sequences
+ISA_Gi>G,ISA_Gi>G,synonymous,False,Genes & Molecular Sequences --- Genes & Molecular Sequences
+LOCATION_OF_LBloG,PART_OF_GpoLB,neutral,True,Genes & Molecular Sequences --- Living Beings
+PART_OF_Gpo>LB,PART_OF_GpoLB,neutral,False,Genes & Molecular Sequences --- Living Beings
+AFFECTS_GafPH,AFFECTS_GafPH,neutral,False,Genes & Molecular Sequences --- Phenomena
+AUGMENTS_GagPH,AFFECTS_GafPH,neutral,False,Genes & Molecular Sequences --- Phenomena
+DISRUPTS_GdsPH,AFFECTS_GafPH,neutral,False,Genes & Molecular Sequences --- Phenomena
+CAUSES_GcPH,AFFECTS_GafPH,neutral,False,Genes & Molecular Sequences --- Phenomena
+AFFECTS_GafPS,AFFECTS_GafPS,neutral,False,Genes & Molecular Sequences --- Physiology
+AUGMENTS_GagPS,AFFECTS_GafPS,neutral,False,Genes & Molecular Sequences --- Physiology
+DISRUPTS_GdsPS,AFFECTS_GafPS,neutral,False,Genes & Molecular Sequences --- Physiology
+CAUSES_GcPS,AFFECTS_GafPS,neutral,False,Genes & Molecular Sequences --- Physiology
+METHOD_OF_GmoPR,USES_PRuG,neutral,True,Genes & Molecular Sequences --- Procedures
+USES_PRuG,USES_PRuG,neutral,False,Genes & Molecular Sequences --- Procedures
+ISA_LBi>LB,ISA_LBi>LB,synonymous,False,Living Beings --- Living Beings
+PART_OF_LBpo>LB,ISA_LBi>LB,synonymous,False,Living Beings --- Living Beings
+INTERACTS_WITH_LBiwLB,INTERACTS_WITH_LBiwLB,neutral,False,Living Beings --- Living Beings
+COEXISTS_WITH_LBcwLB,INTERACTS_WITH_LBiwLB,neutral,False,Living Beings --- Living Beings
+PROCESS_OF_PSpro>LB,PROCESS_OF_PSproLB,positive,False,Living Beings --- Physiology
+CAUSES_LBcPS,PROCESS_OF_PSproLB,positive,True,Living Beings --- Physiology
+AFFECTS_PSafLB,AFFECTS_PSafLB,neutral,False,Living Beings --- Physiology
+OCCURS_IN_PSoiLB,AFFECTS_PSafLB,neutral,False,Living Beings --- Physiology
+PRODUCES_PSpd>LB,AFFECTS_PSafLB,neutral,False,Living Beings --- Physiology
+ADMINISTERED_TO_PRatLB,ADMINISTERED_TO_PRatLB,neutral,False,Living Beings --- Procedures
+AFFECTS_PRafLB,ADMINISTERED_TO_PRatLB,neutral,False,Living Beings --- Procedures
+LOCATION_OF_ORloPR,LOCATION_OF_ORloPR,neutral,False,Organizations --- Procedures
+METHOD_OF_PRmoOR,LOCATION_OF_ORloPR,neutral,True,Organizations --- Procedures
+USES_PRuOR,LOCATION_OF_ORloPR,neutral,True,Organizations --- Procedures
+AFFECTS_PHafPS,AFFECTS_PHafPS,neutral,False,Phenomena --- Physiology
+PROCESS_OF_PHpro>PS,AFFECTS_PHafPS,neutral,False,Phenomena --- Physiology
+PROCESS_OF_PSpro>PH,AFFECTS_PHafPS,neutral,True,Phenomena --- Physiology
+AFFECTS_PSafPS,AFFECTS_PSafPS,neutral,False,Physiology --- Physiology
+CAUSES_PScPS,AFFECTS_PSafPS,neutral,False,Physiology --- Physiology
+PROCESS_OF_PSpro>PS,AFFECTS_PSafPS,neutral,False,Physiology --- Physiology
+COEXISTS_WITH_PScwPS,AFFECTS_PSafPS,neutral,False,Physiology --- Physiology
+DISRUPTS_PSdsPS,AFFECTS_PSafPS,neutral,False,Physiology --- Physiology
+AFFECTS_PRafPS,AFFECTS_PRafPS,neutral,False,Physiology --- Procedures
+TREATS_PRtPS,AFFECTS_PRafPS,neutral,False,Physiology --- Procedures
+STIMULATES_PRstPS,AFFECTS_PRafPS,neutral,False,Physiology --- Procedures
+METHOD_OF_PRmoPR,METHOD_OF_PRmoPR,neutral,False,Procedures --- Procedures
+USES_PRuPR,METHOD_OF_PRmoPR,neutral,False,Procedures --- Procedures
+ISA_PRi>PR,METHOD_OF_PRmoPR,neutral,False,Procedures --- Procedures
+COEXISTS_WITH_PRcwPR,METHOD_OF_PRmoPR,neutral,False,Procedures --- Procedures
+NEG_INTERACTS_WITH_CDniwCD,,,False,Chemicals & Drugs --- Chemicals & Drugs
+NEG_STIMULATES_CDnstCD,,,False,Chemicals & Drugs --- Chemicals & Drugs
+NEG_INHIBITS_CDninCD,,,False,Chemicals & Drugs --- Chemicals & Drugs
+NEG_COEXISTS_WITH_CDncwCD,,,False,Chemicals & Drugs --- Chemicals & Drugs
+compared_with_CDcpwCD,,,False,Chemicals & Drugs --- Chemicals & Drugs
+higher_than_CDhtCD,,,False,Chemicals & Drugs --- Chemicals & Drugs
+same_as_CDsaCD,,,False,Chemicals & Drugs --- Chemicals & Drugs
+lower_than_CDltCD,,,False,Chemicals & Drugs --- Chemicals & Drugs
+NEG_AFFECTS_CDnafDO,,,False,Chemicals & Drugs --- Disorders
+NEG_CAUSES_CDncDO,,,False,Chemicals & Drugs --- Disorders
+NEG_TREATS_CDntDO,,,False,Chemicals & Drugs --- Disorders
+NEG_ASSOCIATED_WITH_CDnawDO,,,False,Chemicals & Drugs --- Disorders
+NEG_AUGMENTS_CDnagDO,,,False,Chemicals & Drugs --- Disorders
+NEG_PREVENTS_CDnpvDO,,,False,Chemicals & Drugs --- Disorders
+NEG_PREDISPOSES_CDnpsDO,,,False,Chemicals & Drugs --- Disorders
+NEG_DISRUPTS_CDndsDO,,,False,Chemicals & Drugs --- Disorders
+higher_than_CDhtG,,,False,Chemicals & Drugs --- Genes & Molecular Sequences
+NEG_STIMULATES_CDnstG,,,False,Chemicals & Drugs --- Genes & Molecular Sequences
+compared_with_GcpwCD,,,False,Chemicals & Drugs --- Genes & Molecular Sequences
+NEG_INTERACTS_WITH_CDniwG,,,False,Chemicals & Drugs --- Genes & Molecular Sequences
+NEG_AFFECTS_CDnafPS,,,False,Chemicals & Drugs --- Physiology
+NEG_DISRUPTS_CDndsPS,,,False,Chemicals & Drugs --- Physiology
+NEG_AUGMENTS_CDnagPS,,,False,Chemicals & Drugs --- Physiology
+NEG_CAUSES_CDncPS,,,False,Chemicals & Drugs --- Physiology
+LOCATION_OF_PSloCD,,,False,Chemicals & Drugs --- Physiology
+NEG_INHIBITS_CDninPS,,,False,Chemicals & Drugs --- Physiology
+compared_with_CDcpwPR,,,False,Chemicals & Drugs --- Procedures
+higher_than_CDhtPR,,,False,Chemicals & Drugs --- Procedures
+NEG_COEXISTS_WITH_DOncwDO,,,False,Disorders --- Disorders
+NEG_PROCESS_OF_DOnproLB,,,False,Disorders --- Living Beings
+DIAGNOSES_LBdgDO,,,False,Disorders --- Living Beings
+NEG_TREATS_PRntDO,,,False,Disorders --- Procedures
+NEG_DIAGNOSES_PRndgDO,,,False,Disorders --- Procedures
+NEG_AFFECTS_PRnafDO,,,False,Disorders --- Procedures
+compared_with_GcpwG,,,False,Genes & Molecular Sequences --- Genes & Molecular Sequences
+NEG_AFFECTS_GnafPS,,,False,Genes & Molecular Sequences --- Physiology
+NEG_LOCATION_OF_AnloCD,,,False,Anatomy --- Chemicals & Drugs
+NEG_LOCATION_OF_AnloG,,,False,Anatomy --- Genes & Molecular Sequences
+compared_with_PRcfpwPR,,,False,Procedures --- Procedures
+ASSOCIATED_WITH_CDawDO,,,False,Chemicals & Drugs --- Disorders
+AUGMENTS_CDagDO,,,False,Chemicals & Drugs --- Disorders
+ASSOCIATED_WITH_CDawCD,,,False,Chemicals & Drugs --- Chemicals & Drugs
+ASSOCIATED_WITH_CDawDO,,,False,Chemicals & Drugs --- Disorders
+AUGMENTS_DOag>DO,,,False,Disorders --- Disorders
+PART_OF_Gpo>G,,,False,Genes & Molecular Sequences --- Genes & Molecular Sequences
+AFFECTS_CDafPS,,,False,Chemicals & Drugs --- Physiology
+STIMULATES_CDst>CD,REGULATES_CDreg>CD,directional,False,Chemicals & Drugs --- Chemicals & Drugs
+INHIBITS_CDinCD,REGULATES_CDreg>CD,directional,False,Chemicals & Drugs --- Chemicals & Drugs
+STIMULATES_Gst>G,REGULATES_Greg>G,directional,False,Genes & Molecular Sequences --- Genes & Molecular Sequences
+INHIBITS_GinG,REGULATES_Greg>G,directional,False,Genes & Molecular Sequences --- Genes & Molecular Sequences
+ISA_CDi>CD,RELATED_TO_CDrtCD,non-directional,False,Chemicals & Drugs --- Chemicals & Drugs

@@ -10,8 +10,21 @@ run the shell scripts first, then run the ipython notebooks.
 
 To ensure all scripts run properly, please enable the virtual enviornment before running
 
-    1. `./download_semmeddb.sh`
-    2. `./download_umls.sh {umls_usnername} {umls_password}`
-    3. `./download_baseline.sh`
+
+### The following scripts must be run for the rest of the work
+
+1. `./download_semmeddb.sh`
+2. `./download_umls.sh {umls_usnername} {umls_password}`
+3. `./download_baseline.sh`
+4. `./get_semtype_files.sh`
+5. `./download_drugcentral.sh`
 
 
+## Requirments
+
+`download_umls.sh` requires a UMLS account with your id and password
+
+`download_drugcentral.sh` requires PostgreSQL to be installed on the system.
+This dump was created with PostgreSQL 10, however it appears to work with 9.5 as well.
+
+`download_semmeddb.sh` uses the program pv to view progress as it converts the SQL dump to a .csv file
