@@ -11,7 +11,7 @@ run the shell scripts first, then run the ipython notebooks.
 To ensure all scripts run properly, please enable the virtual enviornment before running
 
 
-### The following scripts must be run for the rest of the work
+### The following scripts must be run for the rest of the pipline to work
 
 1. `./download_semmeddb.sh`
 2. `./download_umls.sh {umls_usnername} {umls_password}`
@@ -19,6 +19,7 @@ To ensure all scripts run properly, please enable the virtual enviornment before
 4. `./get_semtype_files.sh`
 5. `./download_drugcentral.sh`
 
+### After running the scripts above, run the jupyter notebooks in order
 
 ## Requirments
 
