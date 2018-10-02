@@ -239,6 +239,7 @@ METHOD_OF_PRmoPR,METHOD_OF_PRmoPR,neutral,False,Procedures --- Procedures
 USES_PRuPR,METHOD_OF_PRmoPR,neutral,False,Procedures --- Procedures
 ISA_PRi>PR,METHOD_OF_PRmoPR,neutral,False,Procedures --- Procedures
 COEXISTS_WITH_PRcwPR,METHOD_OF_PRmoPR,neutral,False,Procedures --- Procedures
+NEG_AFFECTS_CDnafA,,,False,Chemicals & Drugs --- Anatomy
 NEG_INTERACTS_WITH_CDniwCD,,,False,Chemicals & Drugs --- Chemicals & Drugs
 NEG_STIMULATES_CDnstCD,,,False,Chemicals & Drugs --- Chemicals & Drugs
 NEG_INHIBITS_CDninCD,,,False,Chemicals & Drugs --- Chemicals & Drugs
