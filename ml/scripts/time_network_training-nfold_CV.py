@@ -59,14 +59,15 @@ if gs_treat:
 if w != 0.4:
     test_params = os.path.join(test_params, 'dwpc_w_{}'.format(w))
 
+test_params = os.path.join(test_params, '{}_fold_CV'.format(n_folds))
+
 if comp_xval:
     test_params = os.path.join(test_params, 'comp_xval')
 
-if seed != 0:
-    test_params = os.path.join(test_params, 'seed_{}'.format(seed))
+test_params = os.path.join(test_params, 'seed_{}'.format(seed))
 
 load_dir = os.path.join(base_dir, network_year)
-out_dir = os.path.join(load_dir, test_params, '{}_fold_CV'.format(n_folds))
+out_dir = os.path.join(load_dir, test_params)
 n_jobs = 32
 get_all_probas = True
 if scoring.lower() == 'none':
