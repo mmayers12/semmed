@@ -286,8 +286,8 @@ ASSOCIATED_WITH_CDawDO,,,False,Chemicals & Drugs --- Disorders
 AUGMENTS_DOag>DO,,,False,Disorders --- Disorders
 PART_OF_Gpo>G,,,False,Genes & Molecular Sequences --- Genes & Molecular Sequences
 AFFECTS_CDafPS,,,False,Chemicals & Drugs --- Physiology
-STIMULATES_CDst>CD,REGULATES_CDreg>CD,directional,False,Chemicals & Drugs --- Chemicals & Drugs
+STIMULATES_CDstCD,REGULATES_CDreg>CD,directional,False,Chemicals & Drugs --- Chemicals & Drugs
 INHIBITS_CDinCD,REGULATES_CDreg>CD,directional,False,Chemicals & Drugs --- Chemicals & Drugs
-STIMULATES_Gst>G,REGULATES_Greg>G,directional,False,Genes & Molecular Sequences --- Genes & Molecular Sequences
+STIMULATES_GstG,REGULATES_Greg>G,directional,False,Genes & Molecular Sequences --- Genes & Molecular Sequences
 INHIBITS_GinG,REGULATES_Greg>G,directional,False,Genes & Molecular Sequences --- Genes & Molecular Sequences
 ISA_CDi>CD,RELATED_TO_CDrtCD,non-directional,False,Chemicals & Drugs --- Chemicals & Drugs
