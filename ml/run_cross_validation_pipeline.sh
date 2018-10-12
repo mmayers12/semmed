@@ -10,7 +10,7 @@ python scripts/time_network_training-nfold_CV.py 2020 -p 2 -w 0.6 -s recall -n $
 
 
 # Rerun Pipline with different seeds for different splits
-for SEED in {1..10}
+for SEED in {1..9}
 do
     python scripts/time_network_training-nfold_CV.py 2020 -p 2 -w 0.6 -s recall -n $NFOLDS -e $SEED
     # Split by compound
