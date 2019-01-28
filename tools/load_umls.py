@@ -22,7 +22,7 @@ def read_rrf_file(filename, data_dir='../data', col_names=None):
 
     # Set the proper column names
     if col_names is None:
-        col_names = get_colnames(filename)
+        col_names = get_colnames(filename, data_dir)
     data.columns = col_names
 
     return data
