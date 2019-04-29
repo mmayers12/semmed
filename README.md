@@ -1,8 +1,11 @@
 # semmed
 
-Code to create a hetnet from the data in SemmedDB
+Code to create a hetnet from the data in SemmedDB and perform a machine learning alorithm on the resulting network.
 
-To use much of this repo, a UMLS liscence/account is required. [You can apply for one here.](https://uts.nlm.nih.gov//license.html)
+The primary data source for the hetnet is [SemMedDB](https://skr3.nlm.nih.gov/SemMedDB/). The gold standard used
+for machine learning is derived from [DrugCentral](http://drugcentral.org/).
+
+To use much of this repo, a UTS liscence/account is required. [You can apply for one here.](https://uts.nlm.nih.gov//license.html)
 
 This repo is divided into several steps.  First, the python enviornment should be set up and activated
 
@@ -62,3 +65,12 @@ in this repo
 
 - [UMLS Account](https://uts.nlm.nih.gov//license.html) - Required for downloading the UMLS Metathesaurs data.
 
+## Database References
+
+### SemMedDB
+
+Kilicoglu, H, Shin D, Fiszman M, Rosemblat G, Rindflesch TC. (2012) SemMedDB: A PubMed-scale repository of biomedical semantic predications. Bioinformatics, 28(23), 3158-60.
+
+### DrugCentral
+
+Oleg Ursu  Jayme Holmes  Jeffrey Knockel  Cristian G. Bologa  Jeremy J. Yang Stephen L. Mathias  Stuart J. Nelson  Tudor I. Oprea. (2017) DrugCentral: online drug compendium. Nucleic Acids Research, 45(D1) D932–D939. [https://doi.org/10.1093/nar/gkw993](https://doi.org/10.1093/nar/gkw993)
